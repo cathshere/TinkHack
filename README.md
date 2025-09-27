@@ -22,15 +22,19 @@ TinkHack Timeline is a sleek, interactive web app showcasing event schedules in 
 
 ##  File Structure
 public/
-│ └── index.html
-├── src/
-│ ├── components/ # Reusable React components
-│ ├── App.tsx
-│ ├── index.tsx
-│ └── index.css
-├── .gitignore
-├── package.json
-└── README.md
+│   └── index.html
+src/
+│   ├── components/   # Reusable React components
+│   │   ├── TimelineCard.tsx
+│   │   ├── Header.tsx
+│   │   └── ...
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── index.css
+.gitignore
+package.json
+README.md
+
 
 
 - `components/` — individual UI parts like TimelineCard, Header, etc.  
