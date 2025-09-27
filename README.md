@@ -38,14 +38,15 @@ public/
 ##  Quick Start
 
 1. Clone the repo:
-   bash
-               git clone https://github.com/YOUR-USERNAME/tinkhack-project.git
-               cd tinkhack-project
-               npm install
-2. Run locally: 
-               npm run dev
-   Open http://localhost:517
-3. Deploy to Vercel:
+     ```bash
+      git clone https://github.com/YOUR-USERNAME/tinkhack-project.git
+      cd tinkhack-project
+      npm install
+2. Run locally:
+
+         npm run dev
+   Open http://localhost:5173
+4. Deploy to Vercel:
 
                 Push code to GitHub
                 
