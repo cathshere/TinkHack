@@ -21,19 +21,15 @@ TinkHack Timeline is a sleek, interactive web app showcasing event schedules in 
 - Bolt AI environment (for development)  
 
 ##  File Structure
-public/
-│   └── index.html
-src/
-│   ├── components/   # Reusable React components
-│   │   ├── TimelineCard.tsx
-│   │   ├── Header.tsx
-│   │   └── ...
-│   ├── App.tsx
-│   ├── index.tsx
-│   └── index.css
-.gitignore
-package.json
-README.md
+graph TD;
+  public --> index.html
+  src --> components
+  src --> App.tsx
+  src --> index.tsx
+  src --> index.css
+  components --> TimelineCard.tsx
+  components --> Header.tsx
+
 
 
 
